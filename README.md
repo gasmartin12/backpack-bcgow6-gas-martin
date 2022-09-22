@@ -2,7 +2,7 @@
 <h3 align="center">Este es el repo usado para el bootcamp de Go</h3>
 
 
-<h3 align="left">Languages and Tools:</h3>
+<h3 align="left">Herramientas y lenguajes utilizados:</h3>
 <p align="left"> <a href="https://golang.org" target="_blank" 
 rel="noreferrer"> <img 
 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" 
