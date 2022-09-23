@@ -19,4 +19,10 @@ func main() {
 	}
 	fmt.Println(x)
 
+	/*
+		Hay muchas formas... ej,
+			Se puede hacer con un switch y que evalue cada caso
+			con un arreglo y que cicle sobre el arreglo para encontrar indicado
+		Creo que la manera mas rapida y eficiente es con le map.
+	*/
 }
