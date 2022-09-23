@@ -6,14 +6,16 @@ import (
 
 func main() {
 
-	word := "palabra"
+	var word string
+	fmt.Print("Insert a word : ")
+	fmt.Scanf("%s", &word)
 
 	wordArray := []rune(word)
-	countLetters := len(wordArray)
+	letters := len(wordArray)
 
 	fmt.Println("The word '", word, "'")
-	fmt.Println("has ", countLetters, " characters")
-	for i := 0; i < countLetters; i++ {
+	fmt.Println("has ", letters, " characters")
+	for i := 0; i < letters; i++ {
 		fmt.Println(string(wordArray[i]))
 	}
 
