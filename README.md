@@ -8,7 +8,7 @@ rel="noreferrer"> <img
 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" 
 alt="go" width="40" height="40"/> </a> 
 <img 
-src="https://assets.stickpng.com/images/5847f981cef1014c0b5e48be.png" 
+src="https://mercedesdavila.github.io/img/git.png" 
 alt="git" width="40" height="40"/>
 <img 
 src="https://cdn-icons-png.flaticon.com/512/25/25231.png" 
