@@ -14,9 +14,12 @@ import (
 	"os"
 )
 
-var salaryMin = 150000
-var msg = "You must pay tax"
-var errorMsg = "the salary paid does not the taxable minimum"
+const salaryMin = 150000
+
+var (
+	msg      = "you must pay tax"
+	errorMsg = "the salary paid does not the taxable minimum"
+)
 
 func getSalaryError(salary int) (code int, err error) {
 	if salary < salaryMin {
@@ -29,9 +32,8 @@ func main() {
 	salary := 20000
 	code, err := getSalaryError(salary)
 	if code != 200 {
-		fmt.Printf("Error: %d\n %s\n", code, err)
+		fmt.Printf("error: %d\n %s\n", code, err)
 		os.Exit(1)
 	}
 	fmt.Println(msg)
-
 }

@@ -13,21 +13,16 @@ valor de tipo int pasado por parámetro)
 package main
 
 import (
-	"errors"
 	"fmt"
 	"os"
 )
 
-var salaryMin = 150000
-var msg = "You must pay tax"
-var errorMsg = "error: the minimum taxable amount is %d and the salary entered is: [%d]"
+const salaryMin = 150000
 
-func getSalaryError(salary int) (code int, err error) {
-	if salary < salaryMin {
-		return 500, errors.New(errorMsg)
-	}
-	return 200, nil
-}
+var (
+	msg      = "You must pay tax"
+	errorMsg = "error: the minimum taxable amount is %d and the salary entered is: [%d]"
+)
 
 func main() {
 	salary := 20000
@@ -38,5 +33,4 @@ func main() {
 		os.Exit(1)
 	}
 	fmt.Println(msg)
-
 }
