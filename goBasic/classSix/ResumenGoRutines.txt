@@ -1,0 +1,30 @@
+Buenas, ¿Cómo va? Les quería pasar un mini resumen acerca de los 
+Go Routines y el uso de Canales como herramienta para el manejo 
+de la concurrencia.
+Cuando trabajamos con concurrencia, una de las formas de comunicar 
+los procesos es mediante canales . La otra forma es via "shared memory"
+ aunque aplica otros mecanismos y es mas riesgoso. Un canal implica la 
+ comunicación entre 2 entidades, un 'Sender' y un 'Receiver'. 
+ Si un proceso termina de realizar su tarea, puede dejar sus resultados 
+ o algún mensaje en el canal, que le será de utilidad a la entidad o 
+ proceso que lo reciba. Las reglas que aplican dependerá de las 
+ características en las que funcione el canal.
+
+Existen 2 tipos: Unbuffered Channel y Buffered Channel.
+]Unbuffered Channel:  Es un canal de comunicación directa. 
+Este implica que para que el sender pueda enviarle el mensaje 
+al receiver, ambos tienen que estar presentes. Cuando el sender 
+decida enviar información, este tendra que esperar a que aparezca 
+el receiver para poder luego continuar con sus tareas. En tanto no 
+aparezca, el sender se encontrará en una situación de estanque conocida 
+como 'Deadlock'.
+
+]Buffered Channel: Es un canal de comunicación indirecta, donde aparece 
+un intermediario. En este caso, si el sender decide enviar un mensaje a 
+receiver, este no es necesario que se quede esperando a que el receiver 
+aparezca. Lo puede dejar en el canal con buffer de cierto tamaño. 
+Lo pueden ver como un buzón con un espacio limitado, donde el cartero va 
+y deja la carta y luego continua haciendo sus tareas. Luego el dueño de 
+la carta podrá abrir el buzón. OJO:signo_de_exclamación_gris: las cartas 
+se sacan en la forma en la que hayan llegado. Primero Entrado Primero 
+Salido (FIFO en ingles)
