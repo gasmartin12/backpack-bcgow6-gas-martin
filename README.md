@@ -6,5 +6,9 @@
 <p align="left"> <a href="https://golang.org" target="_blank" 
 rel="noreferrer"> <img 
 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" 
-alt="go" width="40" height="40"/> </a> </p>
+alt="go" width="40" height="40"/> </a> 
+<img 
+src="https://nodd3r.com/media/blog/Git_Nodd3r.png" 
+alt="go" width="40" height="40"/>
+</p>
 
