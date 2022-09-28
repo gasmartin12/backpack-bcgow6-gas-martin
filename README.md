@@ -11,7 +11,7 @@ alt="go" width="40" height="40"/> </a>
 src="https://e7.pngegg.com/pngimages/191/974/png-clipart-github-repository-git-project-commit-github-angle-logo.png" 
 alt="git" width="40" height="40"/>
 <img 
-src="[https://e7.pngegg.com/pngimages/191/974/png-clipart-github-repository-git-project-commit-github-angle-logo.png](https://w7.pngwing.com/pngs/490/316/png-transparent-computer-icons-github-github-icon-cat-like-mammal-carnivoran-black.png)" 
+src="https://w7.pngwing.com/pngs/490/316/png-transparent-computer-icons-github-github-icon-cat-like-mammal-carnivoran-black.png" 
 alt="github" width="40" height="40"/>
 </p>
 
