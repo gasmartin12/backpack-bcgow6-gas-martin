@@ -11,7 +11,7 @@ alt="go" width="40" height="40"/> </a>
 src="https://mercedesdavila.github.io/img/git.png" 
 alt="git" width="40" height="40"/>
 <img 
-src="https://cdn-icons-png.flaticon.com/512/25/25231.png" 
+src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/github_circle_gray-512.png" 
 alt="github" width="40" height="40"/>
 </p>
 
