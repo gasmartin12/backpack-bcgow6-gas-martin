@@ -1,2 +1,6 @@
 # Ignora archivos del sistema Mac 
 .DS_store
+
+# Ignorar los archivos comprimidos de las clases
+.rar
+.zip
