@@ -1,5 +1,5 @@
 <h1 align="center">Hola 👋, soy Gaston Martin</h1>
-<h3 align="center">Este es el repo usado para el bootcamp de Go</h3>
+<h3 align="center">Este es el repo usado para el bootcamp de Go de Meli con Digital House</h3>
 
 
 <h3 align="left">Herramientas y lenguajes utilizados:</h3>
@@ -21,8 +21,8 @@ alt="github" width="40" height="40"/>
     <li>Compliance ✅</li>
     <li>Git ✅</li>
     <li>Go Bases ✅</li>
-    <li>Adn en it</li>
-    <li>Org design & wow en it</li>
+    <li>Adn en it  ✅</li>
+    <li>Org design & wow en it  ✅</li>
     <li>Go web</li>
     <li>Carrer development en it</li>
     <li>Sprint 1</li>
