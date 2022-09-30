@@ -1,5 +1,5 @@
 <h1 align="center">Hola 👋, soy Gaston Martin</h1>
-<h3 align="center">Este es el repo usado para el bootcamp de Go</h3>
+<h3 align="center">Este es el repo usado para el bootcamp de Go de Meli con Digital House</h3>
 
 
 <h3 align="left">Herramientas y lenguajes utilizados:</h3>
