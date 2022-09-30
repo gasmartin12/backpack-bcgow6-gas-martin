@@ -21,8 +21,8 @@ alt="github" width="40" height="40"/>
     <li>Compliance ✅</li>
     <li>Git ✅</li>
     <li>Go Bases ✅</li>
-    <li>Adn en it</li>
-    <li>Org design & wow en it</li>
+    <li>Adn en it  ✅</li>
+    <li>Org design & wow en it  ✅</li>
     <li>Go web</li>
     <li>Carrer development en it</li>
     <li>Sprint 1</li>
