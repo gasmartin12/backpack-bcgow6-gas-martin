@@ -14,6 +14,10 @@ alt="git" width="40" height="40"/>
 src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/github_circle_gray-512.png" 
 alt="github" width="40" height="40"/>
 </p>
+<img 
+src="https://raw.githubusercontent.com/gin-gonic/logo/master/color.png" 
+alt="github" width="40" height="40"/>
+</p>
 <h3 align="left"> Modulos: </h3>
 <p> 
   <ul>
