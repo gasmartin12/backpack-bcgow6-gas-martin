@@ -1,0 +1,42 @@
+
+[
+    {
+        "Id":           1,
+        "Name":         "Gas",
+        "Surname":      "Martin",
+        "Email":        "gaston.gmartin@mercadolibre.com",
+        "Age":          23,
+        "Height":       1.65,
+         "Active":       true,
+        "CreationDate": "03-10-2022"
+    },
+    {
+        "Id":           2,
+        "Name":         "Gas2",
+        "Surname":      "Martin2",
+        "Email":        "gaston2.gmartin@mercadolibre.com",
+        "Age":          23,
+        "Height":       1.65,
+        "Active":       true,
+        "CreationDate": "03-10-2022"
+    },
+    {
+        "Id":           3,
+        "Name":         "Gas3",
+        "Surname":      "Martin3",
+        "Email":        "gaston3.gmartin@mercadolibre.com",
+        "Age":          23,
+        "Height":       1.65,
+        "Active":       true,
+        "CreationDate": "03-10-2022"
+    },{
+        "Id":           4,
+        "Name":         "Gas4",
+        "Surname":      "Martin4",
+        "Email":        "gaston4.gmartin@mercadolibre.com",
+        "Age":          23,
+        "Height":       1.65,
+        "Active":       true,
+        "CreationDate": "03-10-2022"
+    }
+]
