@@ -16,7 +16,7 @@ alt="github" width="40" height="40"/>
 </p>
 <img 
 src="https://raw.githubusercontent.com/gin-gonic/logo/master/color.png" 
-alt="github" width="40" height="40"/>
+alt="github" width="40" height="50"/>
 </p>
 <h3 align="left"> Modulos: </h3>
 <p> 
