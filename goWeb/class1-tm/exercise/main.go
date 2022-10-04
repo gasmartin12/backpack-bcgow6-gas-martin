@@ -26,6 +26,7 @@ import (
 	"encoding/json"
 	"errors"
 	"io/ioutil"
+	"net/http"
 
 	"github.com/gin-gonic/gin"
 )
@@ -46,8 +47,8 @@ func main() {
 	// exer 2
 	name := "Gas"
 	router.GET("/", func(c *gin.Context) {
-		c.JSON(200, gin.H{
-			"message": "Hello " + name,
+		c.JSON(http.StatusOK, gin.H{
+			"message": "Hello 👋" + name,
 		})
 	})
 
@@ -72,14 +73,14 @@ func generateUsers() []User {
 }
 
 func GetAllCode(context *gin.Context) {
-	context.JSON(200, generateUsers())
+	context.JSON(http.StatusOK, generateUsers())
 }
 
 // ----------------------------- json
 
 func GetUsers() ([]User, error) {
 	var users []User
-	raw, err := ioutil.ReadFile("./users.json")
+	raw, err := ioutil.ReadFile("./go-web/users.json")
 	if err != nil {
 		return nil, errors.New("error when read the file")
 	}
@@ -90,6 +91,6 @@ func GetUsers() ([]User, error) {
 func GetAllJson(context *gin.Context) {
 	products, err := GetUsers()
 	if err == nil {
-		context.JSON(200, products)
+		context.JSON(http.StatusOK, products)
 	}
 }
