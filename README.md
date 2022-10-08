@@ -18,7 +18,7 @@ src="https://raw.githubusercontent.com/gin-gonic/logo/master/color.png"
 alt="gingonic" width="30" height="50"/>
 <img 
 src="https://raw.githubusercontent.com/swaggo/swag/master/assets/swaggo.png"
-alt="swaggo" width="30" height="50"/>
+alt="swaggo" width="50" height="50"/>
 </p>
 <h3 align="left"> Modulos: </h3>
 <p> 
