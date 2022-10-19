@@ -1,0 +1,64 @@
+Ejercicio 1 
+¿Cuáles son las diferencias entre White Box y Black Box? 
+
+    Las white box testing o pruebas de caja blanca son las pruebas que se basan en el conocimiento sobre la estructura del sistema mientras que las black box testing o pruebas de caja negra son las pruebas que se basan en el conocimiento sobre las especificaciones del sistema.
+
+    Dentro de las WHILE BOX testing existen dos tipos básicos:
+        Statement coverage testing: las statement coverage testing o pruebas de cobertura de declaraciones, proporcionan los datos probados de manera que se garantice que cada instrucción de su código se haya ejecutado al menos una vez.
+        
+        Decision coverage testing: las decision coverage testing o pruebas de cobertura de decisiones son las pruebas de todas las desiciones que el software pueda tomar.  
+    Beneficios de white box testing
+        Pruebas automatizadas
+        Precisión en las pruebas 
+        Determinación exacta en donde ocurrió el error
+        Optimización de código en base a errores ocultos 
+        Pruebas incluso antes de la interfaz de usuario 
+    Desventajas de white box testing
+        Las personas encargadas de realizar estas pruebas deben tener conocimientos en programación a fin de dar estructura al código mal hecho. 
+        En ocasiones no es posible probar todas las condiciones existentes. 
+        El solo centrarse en el código existente puede resultar en omitir algunas deficiencias de funcionalidad sobre todo cuando el o los desarrolladores malinterpreto el requerimiento del usuario. 
+
+    Las back box testing se pueden dividir en:
+
+        Functional testing: Las functional testing o pruebas de funcionalidad de software, son las que como su mismo nombre lo dice son las pruebas de funcionalidad de todo el software, en otras palabras "lo que hace el sistema".
+        
+        Non-functional testing: Las non-functional testing o pruebas no funcionales son las pruebas de rendimiento, usablidad y seguridad, también conocidas como "cómo funciona el sistema".
+        
+        Experience-based testing: Las experience-based testing o pruebas basadas en la experiencia son pruebas en las que la persona encargada validan el software utilizando su experiencia con proyectos similares en el pasado e intuición de posibles errores, este tipo de pruebas comúnmente son un complemente a las dos anteriores. 
+
+        Beneficios de black box testing
+            Realizado desde las perspectiva del usuario 
+            Búsqueda de diferencias entre la implementación y la especificación 
+            Los especialistas en Quality Assurance no tiene que profundizar en la estructura interna de la aplicación
+            Se puede crear documentación que incluya los casos de prueba
+            Los casos de prueba se pueden automatizar
+        Desventajas de black box testing
+            Los requisitos o especificaciones pueden no ser claros, dificultando la escritura de casos de prueba
+            No existe certeza de que todas las áreas hayan sido probadas ya que no es posible probar todo, pero cada prueba adicional reduce el riesgo de errores.  
+
+Ejercicio 2
+¿Qué es un test funcional?.
+    Su objetivo se basa en comprobar si las funcionalidades del desarrollo se realizaron siguiendo las especificaciones y requisitos del cliente, así como sus necesidades iniciales. De esta manera se detectan las posibles fallas de las fases anteriores.
+    En todo proceso de testing de funcional solemos encontrar:
+        Smoke Testing.
+        Unit Testing.
+        Integration Testing.
+        Regression Testing.
+        User Acceptance.
+        Localization.
+
+Ejercicio 3
+¿Qué es un Test de Integración?
+    Prueba la interacción entre dos o más elementos, que pueden ser clases, módulos, paquetes, subsistemas, etc… incluso la interacción del sistema con el entorno de producción.
+
+    Son aquellos test que prueban la comunicaciónentre distintos componentes o capas de laaplicación. El objetivo es comprobar que todosaquellos bloques de código que fueronprobados de forma unitaria, interactúen y secomuniquen entre sí generando los resultadosesperados.
+    Los test de integración exponen elfuncionamiento general de la aplicación,permitiendo evaluar su diseño, desempeño ycomportamiento.
+
+Ejercicio 4
+Indicar las dimensiones de calidad prioritarias en MELI.
+
+    ●Funcionalidad (Functionality)
+    ●Rendimiento (Performance)
+    ●Fiabilidad (Reliability)
+    ●Seguridad (Security)
+    ●Mantenibilidad (Maintainability)
