@@ -13,10 +13,12 @@ alt="git" width="40" height="40"/>
 <img 
 src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/github_circle_gray-512.png" 
 alt="github" width="40" height="40"/>
-</p>
 <img 
 src="https://raw.githubusercontent.com/gin-gonic/logo/master/color.png" 
-alt="github" width="30" height="50"/>
+alt="gingonic" width="30" height="50"/>
+<img 
+src="https://raw.githubusercontent.com/swaggo/swag/master/assets/swaggo.png"
+alt="swaggo" width="50" height="50"/>
 </p>
 <h3 align="left"> Modulos: </h3>
 <p> 
