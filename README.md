@@ -29,9 +29,9 @@ alt="swaggo" width="50" height="50"/>
     <li>Go Bases ✅</li>
     <li>Adn en it  ✅</li>
     <li>Org design & wow en it  ✅</li>
-    <li>Go web</li>
-    <li>Carrer development en it</li>
-    <li>Sprint 1</li>
+    <li>Go we✅b</li>
+    <li>Carrer development en it✅</li>
+    <li>Sprint 1✅</li>
     <li>Conociendo fury</li>
     <li>Testing</li>
     <li>Seguridad & compliance</li>

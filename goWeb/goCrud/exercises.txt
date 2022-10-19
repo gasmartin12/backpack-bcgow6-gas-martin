@@ -1,0 +1,22 @@
+########################### EXERCISES ###########################
+from class 4, the exercises were applied inside this goCrud folder with all the practices and explanations seen in class.
+
+Class 4
+    exer 1
+    exer 2
+
+Class 5
+    exer 1
+    exer 2
+    exer 3
+
+Class 6
+    exer 1
+    exer 2
+    exer 3
+
+Class 7
+    exer 1
+
+Class 8
+    exer 1
