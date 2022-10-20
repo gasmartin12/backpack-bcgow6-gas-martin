@@ -22,7 +22,7 @@ alt="gingonic" width="30" height="50"/>
 src="https://raw.githubusercontent.com/swaggo/swag/master/assets/swaggo.png"
 alt="swaggo" width="50" height="50"/>
 </p>
-<h3 align="left"> Modulos: </h3>
+<h3 align="center"> Modulos: </h3>
 <p> 
   <ul>
     <li>Bienvenida ✅</li>
