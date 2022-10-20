@@ -39,21 +39,21 @@ func TestReadAll(t *testing.T) {
 	lenUsers := 2
 	expUsers := []User{
 		{
-			Id:       1,
-			Name:     "Andres",
-			LastName: "Mejia",
-			Email:    "example@mail.com",
+			Id:       2,
+			Name:     "Gas2",
+			LastName: "Martin2",
+			Email:    "gaston2.gmartin@mercadolibre.com",
 			Age:      23,
-			Height:   191,
+			Height:   165,
 			Active:   true,
 		},
 		{
-			Id:       2,
-			Name:     "Lorena",
-			LastName: "Zamora",
-			Email:    "examplo@mail.com",
-			Age:      34,
-			Height:   163,
+			Id:       4,
+			Name:     "Gas4",
+			LastName: "Martin4",
+			Email:    "gaston4.gmartin@mercadolibre.com",
+			Age:      23,
+			Height:   165,
 			Active:   true,
 		},
 	}
@@ -67,13 +67,13 @@ func TestReadAll(t *testing.T) {
 }
 
 func TestUpdateLastNameAndAge(t *testing.T) {
-	ExpLastNameUpdated := "After to update"
+	ExpLastNameUpdated := "After"
 	ExpAgeUpdated := 45
 	users := []User{
 		{
 			Id:       25,
-			Name:     "Andres",
-			LastName: "Before to update",
+			Name:     "gas",
+			LastName: "Before",
 			Email:    "example@mail.com",
 			Age:      23,
 			Height:   191,
