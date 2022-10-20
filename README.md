@@ -1,8 +1,8 @@
 <h1 align="center">Hola 👋, soy Gaston Martin</h1>
 <h3 align="center">Este es el repo usado para el bootcamp de Go de Meli con Digital House</h3>
-<img 
+<img align="center"
 src="https://miro.medium.com/max/720/1*8o0AvUpPy4leQB7VR3ZgXg.jpeg" 
-alt="Meli go" align="center"/>
+alt="Meli go"/>
 
 <h3 align="left">Herramientas y lenguajes utilizados:</h3>
 <p align="left"> <a href="https://golang.org" target="_blank" 
@@ -22,7 +22,7 @@ alt="gingonic" width="30" height="50"/>
 src="https://raw.githubusercontent.com/swaggo/swag/master/assets/swaggo.png"
 alt="swaggo" width="50" height="50"/>
 </p>
-<h3 align="center"> Modulos: </h3>
+<h3 align="left"> Modulos: </h3>
 <p> 
   <ul>
     <li>Bienvenida ✅</li>
