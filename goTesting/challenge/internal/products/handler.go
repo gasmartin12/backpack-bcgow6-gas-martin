@@ -5,12 +5,12 @@ import (
 )
 
 type Handler struct {
-	svc Service
+	service Service
 }
 
-func NewHandler(s Service) *Handler {
+func NewHandler(service Service) *Handler {
 	return &Handler{
-		svc: s,
+		service: service,
 	}
 }
 
@@ -20,11 +20,10 @@ func (h *Handler) GetProducts(ctx *gin.Context) {
 		ctx.JSON(400, gin.H{"error": "seller_id query param is required"})
 		return
 	}
-	products, err := h.svc.GetAllBySeller(sellerID)
+	products, err := h.service.GetAllBySeller(sellerID)
 	if err != nil {
 		ctx.JSON(500, gin.H{"error": err.Error()})
 		return
 	}
 	ctx.JSON(200, products)
-
 }

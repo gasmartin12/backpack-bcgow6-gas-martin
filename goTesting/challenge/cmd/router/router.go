@@ -10,7 +10,6 @@ func MapRoutes(r *gin.Engine) {
 	{
 		buildProductsRoutes(rg)
 	}
-
 }
 
 func buildProductsRoutes(r *gin.RouterGroup) {
@@ -22,5 +21,4 @@ func buildProductsRoutes(r *gin.RouterGroup) {
 	{
 		prodRoute.GET("", handler.GetProducts)
 	}
-
 }

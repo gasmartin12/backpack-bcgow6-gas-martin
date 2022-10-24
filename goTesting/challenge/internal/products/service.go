@@ -7,17 +7,17 @@ type Service interface {
 }
 
 type service struct {
-	repo Repository
+	repository Repository
 }
 
-func NewService(repo Repository) Service {
+func NewService(repository Repository) Service {
 	return &service{
-		repo: repo,
+		repository: repository,
 	}
 }
 
 func (s *service) GetAllBySeller(sellerID string) ([]Product, error) {
-	data, err := s.repo.GetAllBySeller(sellerID)
+	data, err := s.repository.GetAllBySeller(sellerID)
 	if err != nil {
 		log.Println("error in repository", err.Error(), "sellerId:", sellerID)
 		return nil, err

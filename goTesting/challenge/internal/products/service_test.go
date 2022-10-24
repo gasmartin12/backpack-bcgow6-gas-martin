@@ -2,33 +2,12 @@ package products
 
 import (
 	"errors"
-	"testing"
-
 	"github.com/stretchr/testify/assert"
+	"testing"
 )
 
-type mockRepository struct {
-	data []Product
-}
-
-func (r *mockRepository) GetAllBySeller(sellerID string) ([]Product, error) {
-	var prodList []Product
-
-	for _, v := range r.data {
-		if sellerID == v.SellerID {
-			prodList = append(prodList, v)
-		}
-	}
-
-	if len(prodList) == 0 {
-		return []Product{}, errors.New("not found")
-	}
-
-	return prodList, nil
-}
-
-func TestGetAllBySeller(t *testing.T) {
-
+func testServiceGetAllBySellerOk(t *testing.T) {
+	getSellerID := "FEX112AC"
 	expected := []Product{
 		{
 			ID:          "mock",
@@ -37,38 +16,27 @@ func TestGetAllBySeller(t *testing.T) {
 			Price:       123.55,
 		},
 	}
-
-	repo := mockRepository{
-		data: []Product{
-			{
-				ID:          "mock",
-				SellerID:    "FEX112AC",
-				Description: "generic product",
-				Price:       123.55,
-			},
-		},
-	}
-
-	service := NewService(&repo)
-
-	out, err := service.GetAllBySeller("FEX112AC")
-
+	mockProductRepository := mockRepository{}
+	productService := NewService(&mockProductRepository)
+	data, err := productService.GetAllBySeller(getSellerID)
 	assert.Nil(t, err)
-	assert.Equal(t, expected, out)
+	assert.Equal(t, expected, data)
+	assert.True(t, mockProductRepository.GetInvoked)
 }
 
-func TestGetAllBySellerWithError(t *testing.T){
+func testServiceGetAllBySellerErr(t *testing.T) {
+	getSellerID := "FEX112AC"
+	expectedErr := errors.New("forced error in repository")
+	var expected []Product
+	mockProductRepository := mockRepository{ErrGet: expectedErr}
+	productService := NewService(&mockProductRepository)
+	data, err := productService.GetAllBySeller(getSellerID)
+	assert.EqualError(t, err, expectedErr.Error())
+	assert.Equal(t, expected, data)
+	assert.True(t, mockProductRepository.GetInvoked)
+}
 
-	expected := errors.New("not found")
-
-	repo := mockRepository{
-		data: []Product{},
-	}
-
-	service := NewService(&repo)
-
-	out, err := service.GetAllBySeller("FEX112AC")
-
-	assert.Empty(t, out)
-	assert.Equal(t, expected, err)
+func TestServiceGetAllBySeller(t *testing.T) {
+	t.Run("Happy Path", testServiceGetAllBySellerOk)
+	t.Run("Sad Path", testServiceGetAllBySellerErr)
 }
