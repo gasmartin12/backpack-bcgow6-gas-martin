@@ -1,0 +1,62 @@
+[
+    {
+     "Id": 1,
+     "Name": "gaston",
+     "LastName": "martin",
+     "Email": "example@gmail.com",
+     "Age": 23,
+     "Height": 191,
+     "Active": true,
+     "CreationDate": "2022-10-03T10:36:56.142414-05:00"
+    },
+    {
+     "Id": 2,
+     "Name": "example",
+     "LastName": "example",
+     "Email": "example@gmail.com",
+     "Age": 26,
+     "Height": 162,
+     "Active": true,
+     "CreationDate": "2022-10-03T10:36:56.142417-05:00"
+    },
+    {
+     "Id": 3,
+     "Name": "name",
+     "LastName": "lastName",
+     "Email": "email@mail.com",
+     "Age": 37,
+     "Height": 182,
+     "Active": true,
+     "CreationDate": "2022-10-03T10:36:56.142417-05:00"
+    },
+    {
+     "Id": 4,
+     "Name": "name2",
+     "LastName": "lastName2",
+     "Email": "email2@mail.com",
+     "Age": 72,
+     "Height": 174,
+     "Active": true,
+     "CreationDate": "2022-10-06T16:54:34.031387-05:00"
+    },
+    {
+     "Id": 5,
+     "Name": "name3",
+     "LastName": "lastName3",
+     "Email": "email3@mail.com",
+     "Age": 32,
+     "Height": 182,
+     "Active": false,
+     "CreationDate": "2022-10-06T16:54:49.972706-05:00"
+    },
+    {
+     "Id": 6,
+     "Name": "name4",
+     "LastName": "lastName4",
+     "Email": "email4@mail.com",
+     "Age": 37,
+     "Height": 182,
+     "Active": false,
+     "CreationDate": "2022-10-06T16:54:49.972706-05:00"
+    }
+   ]
