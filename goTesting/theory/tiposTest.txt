@@ -1,0 +1,12 @@
+Unit Test: pruebas de bajo nivel, podemos y debemos realizar pruebas para todos los casos borde. Son rapidos y faciles de ejecutar. Tenemos que probar todos los puntos hasta que no se pueda desglosar mas. Deben ser independientes, es decir no depender de ningún otro test o parte de código.
+
+Integration Test: Verifican la comunicación y armonia entre modulos, ejemplo entre el service y repository. Se puede probar conexiones con bases de datos (cantidad indefinida.) y se suele utilizar en el area de microservicios, justamente porque verifica la armonia y comunicación entre ellos. Es el paso siguiente a los test funcionales. Son mas costosos que los unit test por el simple motivo que prueba y depende de otra parte de nuestro código
+
+Funtional Test: Principalmente el objetivo central son los requisitos del negocio. Ademas las utilizamos para ver la respuesta final y no para los estados intermedios que nuestra funcionalidad va realizando, por eso son test de caja Negra. No conocemos el interior pero tampoco nos interesa ni perjudica.
+
+Diferencias con test de integración: las pruebas de integración verifican por ejemplo que una consulta a una base de datos sea ejecutada correctamente. Mientras que las pruebas funcionales espera devolver al usuario un resultado especifico que anteriormente fue definido en los requerimientos.
+
+End-to-end Test: Tambien conocidos como pruebas de punto a punto, lo que vienen a verificar estos test es el comportamiento de los usuarios (vos) con la aplicación. Basicamente tiene que estar el entorno completo, "producto final"
+ejemplos de esta practica puede ser el login, pagos online etc
+
+Conclusion: Todos las etapas y tipos de test son importantes, cada una verifica algo dentro de nuestro producto. Primero empezar por unit test, luego test de integración y para finalizar los funcional test nos permitirán englobar y verificar el comportamiento
