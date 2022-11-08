@@ -35,14 +35,14 @@ alt="Meli go"/>
     <li>Adn en it  ✅</li>
     <li>Org design & wow en it  ✅</li>
     <li>Go web ✅</li>
-    <li>Carrer development en it✅</li>
-    <li>Sprint 1✅</li>
-    <li>Conociendo fury</li>
-    <li>Testing</li>
-    <li>Seguridad & compliance</li>
-    <li>Sprint 2</li>
-    <li>Seguridad & compliance ii</li>
-    <li>Introducción a bases de datos</li>
+    <li>Carrer development en it ✅</li>
+    <li>Sprint 1 ✅</li>
+    <li>Conociendo fury ✅</li>
+    <li>Testing ✅</li>
+    <li>Seguridad & compliance ✅</li>
+    <li>Sprint 2 ✅</li>
+    <li>Seguridad & compliance ii ✅</li>
+    <li>Introducción a bases de datos ✅</li>
     <li>Implementación de bases de datos</li>
     <li>Sprint 3</li>
     <li>Sistemas distribuidos</li>
