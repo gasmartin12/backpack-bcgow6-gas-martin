@@ -1,0 +1,4 @@
+Base de Datos - Intro - SGBD - CAP
+    
+    ¿Qué es una base de datos?
+        Las bases de datos son un conjunto de datos que se encuentran almacenados en un  determinado  lugar  de  forma  organizada  para  luego  poder  ser  consultados  y utilizados de manera eficiente.●Cada base  de  datos  se  compone  de  una  o  más tablas que  se  encargan  de almacenar el conjunto de datos. ●Cada tabla tiene una o más columnas y filas y la "intersección" entre ambas es considerada como celda o campo.
