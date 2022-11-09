@@ -1,0 +1,36 @@
+1)  Si tengo que almacenar archivos binarios para mi sistema de procesamiento de Billing...
+        que tipo de bases de datos debo utilizar? porque?
+            OBJECT STORAGE
+
+2)  Si tengo que guardar todos los datos de los usuarios de MELI
+        que tipo de bases de datos debo utilizar? porque?
+            KBS ya que el patron de acceso lo permite. Ya que podemos recuperar los usuarios por id.
+
+Caso de Uso Nº 1
+Tengo una base de datos relacional que utilizo para guardar información sobre el carrito de compras. 
+• Cuando alguien abandona el carrito, se inserta un registro en una tabla. 
+• Quiero que cuando eso pase, la API de Growth pueda enviar una notificación al usuario para que retome el carrito. 
+¿Cómo resuelvo el Caso de Uso? ¿Por qué?
+
+        Golden gate con tokens de BigQueue
+
+Caso de Uso Nº 2
+Tengo un KVS que utilizo para guardar mis items, a los cuales se accede habitualmente por clave, no obstante, ahora me surgió una necesidad de que en ciertos casos quiero poder buscar y agrupar por categoría.
+¿Qué solución proponen? ¿Por qué?
+
+        DS -> document search
+        QKBS -> si es busqueda simple
+
+Caso de Uso Nº 3
+Tengo un KVS y quiero poder obtener todos los datos almacenados para poder hacer operaciones en bulk sobre ellos. Cómo lo puedo resolver?
+¿Qué solución proponen? ¿Por qué?
+
+        Object Storage -> caso de exelencia para hacer los bulks sobre los datos
+
+Caso de Uso Nº 4
+Tengo una KVS que utilizo para guardar información sobre el carrito de compras. Cuando alguien abandona el carrito, se inserta un registro en la tabla. Quiero que cuando eso pase, la API de Growth pueda enviar una notificación al usuario para que retome el carrito.
+¿Qué solución proponen? ¿Por qué?
+
+        BigQueue -> puede que no este en orden
+        streams -> para tener los objetos actualizados
+

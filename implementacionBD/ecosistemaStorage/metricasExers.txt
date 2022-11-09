@@ -1,0 +1,18 @@
+Ejercicio 1 - En sus apps
+
+Asumiendo que tienen un KVS cuya variable de ambiente es: "KEY_VALUE_STORE_MY_CONTAINER_CONTAINER_NAME"
+Implementar en Java una clase "User" que tenga varios campos como id, nombre, apellido, género, fecha de nacimiento
+Implementar una clase que permita hacer el CRUD de ese user en KVS
+Asegurarse que el KVS tenga 2 reintentos
+Asegurarse que si se pasa del rate limit, se loguee la información correspondiente
+
+    - 
+
+
+Ejercicio 2 - En sus apps
+
+Asumiendo que tienen aquel KVS tiene un DS asociado cuyo nombre es my-container-ds
+Implementar una clase que permita hacer consultas contra ese DS para los users
+Hacer un método que devuelva los usuarios de un país
+
+    -   
